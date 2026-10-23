@@ -1,0 +1,23 @@
+# Real client names, people and SharePoint links stay on this machine.
+cells/**/PRIVATE.md
+
+# Guardrail: client documents belong in SharePoint, not in this repo.
+cells/**/*.pdf
+cells/**/*.doc
+cells/**/*.docx
+cells/**/*.ppt
+cells/**/*.pptx
+cells/**/*.xls
+cells/**/*.xlsx
+cells/**/*.csv
+cells/**/*.msg
+cells/**/*.eml
+cells/**/*.vtt
+cells/**/*.srt
+cells/**/*.mp3
+cells/**/*.mp4
+cells/**/*.m4a
+cells/**/*.zip
+
+.DS_Store
+.obsidian/workspace*.json
